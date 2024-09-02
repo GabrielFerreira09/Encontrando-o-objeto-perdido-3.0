@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do objeto perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="https://th.bing.com/th/id/OIP.AcQRrB0kfM-TYdRiTksu0gHaE8?rs=1&pid=ImgDetMain" alt="">
+            <p>Um dia desses, eu estava passando por uma rua, a caminho de casa, e vi no chão um livro velho, mas com uma capa muito interessante que contava a história de um objeto misterioso perdido. Não sabia a quem pertencia este livro e como achado não é roubado, resolvi leva-lo para minha casa para lê-lo. Ao chegar em casa percebi que dentro do livro tinha uma carta em um compartimento secreto atrás da capa, no qual a mesma tinha pistas bem convincentes para  encontrar o tal objeto perdido que o livro falava, então, como estava sem nada para fazer, acabei por decidir seguir essas pistas e você vai ser o meu companheiro(a) nessa incrível jornada!</p>
+            <button class="btn-proximo" data-proximo="1">Londres</button>
+            <button class="btn-proximo" data-proximo="2">Liverpool</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa a sua jornada na cidade de Londres na Inglaterra, ao amanhecer vamos até o topo do Big Ben para encontrar nossa primeira pista!</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a nossa primeira pista</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Liverpool, na Inglaterra, a carta indica que você deve procurar sua próxima pista em algum ponto turístico da cidade ao amanhecer do dia. Então, por onde você vai começar?</p>
+            <button class="btn-proximo" data-proximo="5">Museu / estádio do Licaverpool Football Club (Anfild)</button>
+            <button class="btn-proximo" data-proximo="6">Catedral de Liverpool</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Chegando ao topo do Big Ben, você avista um Baú com um pergaminho contendo mais uma dica, dizendo que a próxima pista será encontrada na cidade de Liverpool</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para Liverpool</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="file:///C:/Users/gabri/OneDrive/Imagens/imagem%20do%20passo%204.webp" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você acaba percebendo que essa aventura é grande e perigosa demais, portanto acaba por decidir voltar para casa e me deixar sozinho nessa aventura, mas sempre se perguntando o que teria acontecido e qual era o objeto perido.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Explorando o museu/estádio do Liverpool Football Club, percebemos que não há nada demais no local, então decidimos voltar e seguir outra pista.</p>
+            <button class="btn-proximo" data-proximo="7">Voltar e explorar a Catedral de Liverpool</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Em Liverpool, você descobre que a próxima pista se encontra na Catedral de Liverpool</p>
+            <button class="btn-proximo" data-proximo="6">Ir até a Catedral</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Na Catedral de Liverpool, após vasculha-la por completo, nós encontramos a próxima pista debaixo de uma falso degrau que leva ao topo do altar, apontando que a próxima pista estaria em um museu, não muito longe daquele lugar.</p>
+            <button class="btn-proximo" data-proximo="8">Ir até o museu</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="https://1.bp.blogspot.com/-Fj9_JUOnF-8/YZf2dtWCHWI/AAAAAAAA440/2xFqlWuLyd83JBhKIWuRjTsbotZvqiNqQCLcBGAsYHQ/w1600/dois-caminhos.jpg" alt="qual caminho escolher?">
+            <p>Chegando ao antigo museu da cidade de Liverpool, começamos a procurar todo tipo de pista no local e você acaba achando uma passagem secreta atrás de uma das estatuas do grande museu. Dentro dessa passagem existem dois caminhos, e como não podemos nos separar por uma questão de segurança, então temos que escolher:</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo da esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo da direita</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O caminho a esquerda nos levou a uma escritura antiga que revela exatamente como abrir outra passagem secreta para chegar ao objeto perdido.</p>
+            <button class="btn-proximo" data-proximo="11">Seguir as escrituras e pegar o objeto perdido</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O caminho a direita nos levou a uma armadilha, no qual nós ficaremos presos para o resto de nossas vidas.</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="https://th.bing.com/th/id/OIP.2H7Q5oh-S51Jj6N0SuRd-AHaEJ?rs=1&pid=ImgDetMain" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da passagem secreta há uma chave que abre um grande baú. Dentro desse baú tem tesouros e riquezas inimagináveis que com valores inestimáveis que nos deixarão ricos até nossas últimas gerações!!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
